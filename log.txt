@@ -1,0 +1,91 @@
+Shape drawn: RECTANGLE
+Shape drawn: RECTANGLE
+Shape drawn: RECTANGLE
+Shape drawn: RECTANGLE
+Shape drawn: CIRCLE
+Shape drawn: CIRCLE
+Shape drawn: CIRCLE
+Drawing saved
+Shape drawn: RECTANGLE
+Shape drawn: RECTANGLE
+Shape drawn: RECTANGLE
+Shape drawn: CIRCLE
+Shape drawn: CIRCLE
+Shape drawn: RECTANGLE
+Shape drawn: RECTANGLE
+Shape drawn: RECTANGLE
+Shape drawn: CIRCLE
+Drawing loaded ID: 1
+Canvas cleared
+Shape drawn: CIRCLE
+Shape drawn: CIRCLE
+Shape drawn: RECTANGLE
+Shape drawn: RECTANGLE
+Undo action
+Undo action
+Redo action
+Redo action
+Canvas cleared
+Drawing loaded
+Drawing loaded ID: 2
+Drawing loaded ID: 3
+Drawing loaded ID: 1
+Drawing loaded ID: 2
+Shape drawn: RECTANGLE
+Shape drawn: RECTANGLE
+Shape deleted
+Shape drawn: RECTANGLE
+Shape drawn: RECTANGLE
+Shape drawn: RECTANGLE
+Shape deleted
+Shape deleted
+2026-03-30T13:39:09.155947700 Shape drawn: RECTANGLE
+LOG: 30/03/2026 01:45:18 PM Shape drawn: RECTANGLE
+LOG: 30/03/2026 01:45:18 PM Shape drawn: RECTANGLE
+LOG: 30/03/2026 01:45:18 PM Shape drawn: RECTANGLE
+LOG: 30/03/2026 01:45:18 PM Shape drawn: RECTANGLE
+LOG: 30/03/2026 01:45:18 PM Shape deleted
+LOG: 06/04/2026 11:38:28 AM / Shape drawn: RECTANGLE
+LOG: 06/04/2026 11:38:28 AM / Shape drawn: RECTANGLE
+LOG: 06/04/2026 11:38:28 AM / Shape drawn: RECTANGLE
+LOG: 06/04/2026 11:38:28 AM / Shape drawn: RECTANGLE
+LOG: 06/04/2026 11:38:28 AM / Shape drawn: RECTANGLE
+LOG: 06/04/2026 11:38:28 AM / Shape drawn: CIRCLE
+LOG: 06/04/2026 11:38:28 AM / Shape drawn: CIRCLE
+LOG: 06/04/2026 11:38:28 AM / Shape drawn: CIRCLE
+LOG: 06/04/2026 11:38:28 AM / Shape drawn: CIRCLE
+LOG: 06/04/2026 11:38:28 AM / Shape drawn: CIRCLE
+LOG: 06/04/2026 11:38:28 AM / Shape deleted
+LOG: 06/04/2026 11:38:28 AM / Drawing loaded ID: 1
+LOG: 06/04/2026 11:38:28 AM / Drawing loaded ID: 2
+Logger switched to File
+06/04/2026 12:48:50 PM / Shape drawn: RECTANGLE
+06/04/2026 12:48:50 PM / Shape drawn: RECTANGLE
+06/04/2026 12:48:50 PM / Shape drawn: RECTANGLE
+06/04/2026 12:48:50 PM / Shape drawn: CIRCLE
+06/04/2026 12:48:50 PM / Shape drawn: CIRCLE
+06/04/2026 12:48:50 PM / Shape drawn: CIRCLE
+Logger switched to File
+Shape added: Circle
+06/04/2026 01:15:36 PM / Shape drawn: CIRCLE
+Shape added: Circle
+06/04/2026 01:15:36 PM / Shape drawn: CIRCLE
+Shape added: Circle
+06/04/2026 01:15:36 PM / Shape drawn: CIRCLE
+Shape added: Circle
+06/04/2026 01:15:36 PM / Shape drawn: CIRCLE
+Shape added: Line
+06/04/2026 01:15:36 PM / Shape drawn: LINE
+Shape added: Line
+06/04/2026 01:15:36 PM / Shape drawn: LINE
+Shape added: Line
+06/04/2026 01:15:36 PM / Shape drawn: LINE
+Logger switched to File
+Shape added: Rectangle
+06/04/2026 01:16:35 PM / Shape drawn: RECTANGLE
+Shape added: Rectangle
+06/04/2026 01:16:35 PM / Shape drawn: RECTANGLE
+Shape added: Circle
+06/04/2026 01:16:35 PM / Shape drawn: CIRCLE
+Shape added: Circle
+06/04/2026 01:16:35 PM / Shape drawn: CIRCLE

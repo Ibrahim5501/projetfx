@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import observer.ObservableCanvas?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.DrawingController">
+
+    <!-- TOP TOOLBAR -->
+    <top>
+        <HBox spacing="10" style="-fx-padding:10; -fx-background-color:#2c3e50;">
+        	<Button text="Rectangle" onAction="#selectRectangle"/>
+            <Button text="Circle" onAction="#selectCircle"/>
+            <Button text="Line" onAction="#selectLine"/>
+            
+            <Button text="Undo" onAction="#undo"/>
+            <Button text="Redo" onAction="#redo"/>
+            <Button text="Clear" onAction="#clearCanvas"/>
+            
+            <ComboBox fx:id="loggerSelector" prefWidth="150"/>
+        </HBox>
+    </top>
+
+    <!-- DRAWING AREA -->
+    <center>
+        <ObservableCanvas fx:id="canvas" style="-fx-background-color:white;"/>
+    </center>
+
+</BorderPane>

@@ -16,4 +16,5 @@ module projetfx {
 	opens app to javafx.graphics;
 	opens controller to javafx.fxml;
 	opens observer to javafx.fxml;
+	opens decorator to javafx.fxml;
 }

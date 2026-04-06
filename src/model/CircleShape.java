@@ -1,16 +1,23 @@
 package model;
 
+import javafx.scene.Node;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
-import javafx.scene.shape.Shape;
 
-public class CircleShape extends ShapeModel {
+public class CircleShape implements DrawableShape {
+
+    private double centerX, centerY, radius;
+
+    public CircleShape(double centerX, double centerY, double radius) {
+        this.centerX = centerX;
+        this.centerY = centerY;
+        this.radius = radius;
+    }
 
     @Override
-    public Shape draw(double x, double y) {
-        Circle circle = new Circle(x, y, 40);
-        circle.setFill(Color.BLUE);
-        circle.setStroke(Color.BLUE);
+    public Node draw() {
+        Circle circle = new Circle(centerX, centerY, radius);
+        circle.setFill(Color.GREEN);
         return circle;
     }
 }

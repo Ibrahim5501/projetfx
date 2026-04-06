@@ -1,9 +1,10 @@
 package observer;
 
-import javafx.scene.shape.Shape;
+import javafx.scene.Node;
 
 public interface ShapeObserver {
-    void onShapeAdded(Shape shape);
-    void onShapeRemoved(Shape shape);
-    void onShapeMoved(Shape shape);
+
+    void onShapeAdded(Node node);
+    void onShapeRemoved(Node node);
+    void onShapeMoved(Node node);
 }

@@ -1,30 +1,35 @@
 package command;
 
-import javafx.scene.layout.Pane;
-import javafx.scene.shape.Shape;
+import javafx.scene.Node;
+import model.DrawableShape;
 import observer.ObservableCanvas;
 
 public class AddShapeCommand implements Command {
 
-    private Pane canvas;
-    private Shape shape;
+    private ObservableCanvas canvas;
+    private DrawableShape shape;
+    private Node node;
 
-    public AddShapeCommand(Pane canvas, Shape shape) {
+    public AddShapeCommand(ObservableCanvas canvas, DrawableShape shape) {
         this.canvas = canvas;
         this.shape = shape;
     }
 
     @Override
     public void execute() {
-        canvas.getChildren().add(shape);
-        if (canvas instanceof ObservableCanvas oc)
-            oc.notifyShapeAdded(shape);
+        node = shape.draw();   // ✅ FIX HERE
+
+        canvas.getChildren().add(node);
+        canvas.notifyShapeAdded(node);
     }
 
     @Override
     public void undo() {
-        canvas.getChildren().remove(shape);
-        if (canvas instanceof ObservableCanvas oc)
-            oc.notifyShapeRemoved(shape);
+        canvas.getChildren().remove(node);
+        canvas.notifyShapeRemoved(node);
+    }
+
+    public Node getNode() {
+        return node;
     }
 }

@@ -9,10 +9,14 @@
 
     <!-- TOP TOOLBAR -->
     <top>
-        <HBox spacing="10" style="-fx-padding:10; -fx-background-color:#2c3e50;">
+        <HBox spacing="10" style="-fx-padding:10; -fx-background-color:#32a852;">
         	<Button text="Rectangle" onAction="#selectRectangle"/>
             <Button text="Circle" onAction="#selectCircle"/>
             <Button text="Line" onAction="#selectLine"/>
+            
+            <ColorPicker fx:id="colorPicker"/>
+		    <CheckBox fx:id="borderCheckBox" text="Border"/>
+		    <Slider fx:id="sizeSlider" min="0.2" max="1.5" value="0.5"/>
             
             <Button text="Undo" onAction="#undo"/>
             <Button text="Redo" onAction="#redo"/>

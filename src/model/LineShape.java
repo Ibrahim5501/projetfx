@@ -1,15 +1,24 @@
 package model;
 
+import javafx.scene.Node;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Line;
-import javafx.scene.shape.Shape;
 
-public class LineShape extends ShapeModel {
+public class LineShape implements DrawableShape {
+
+    private double x1, y1, x2, y2;
+
+    public LineShape(double x1, double y1, double x2, double y2) {
+        this.x1 = x1;
+        this.y1 = y1;
+        this.x2 = x2;
+        this.y2 = y2;
+    }
 
     @Override
-    public Shape draw(double x, double y) {
-        Line line = new Line(x, y, x + 100, y + 50);
-        line.setStroke(Color.RED);
+    public Node draw() {
+        Line line = new Line(x1, y1, x2, y2);
+        line.setStroke(Color.BLACK);
         return line;
     }
 }

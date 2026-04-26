@@ -17,7 +17,7 @@ public class AddShapeCommand implements Command {
 
     @Override
     public void execute() {
-        node = shape.draw();   // ✅ FIX HERE
+        node = shape.draw();
 
         canvas.getChildren().add(node);
         canvas.notifyShapeAdded(node);

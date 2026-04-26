@@ -37,7 +37,7 @@ public class LoggerObserver implements ShapeObserver {
         logger.log(now() + " / Shape moved: " + getShapeName(node));
     }
 
-    // 🔥 Helper method
+    // Helper method
     private String getShapeName(Node node) {
         if (node instanceof Shape s) {
             return s.getClass().getSimpleName();

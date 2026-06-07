@@ -89,3 +89,16 @@ Shape added: Circle
 06/04/2026 01:16:35 PM / Shape drawn: CIRCLE
 Shape added: Circle
 06/04/2026 01:16:35 PM / Shape drawn: CIRCLE
+06/06/2026 17:31:54 / Logger switched to File
+06/06/2026 17:31:55 / Shape added: Rectangle
+06/06/2026 17:31:55 / Shape added
+06/06/2026 17:31:56 / Shape added: Rectangle
+06/06/2026 17:31:56 / Shape added
+06/06/2026 17:31:56 / Shape added: Rectangle
+06/06/2026 17:31:56 / Shape added
+06/06/2026 17:31:57 / Shape added: Rectangle
+06/06/2026 17:31:57 / Shape added
+06/06/2026 17:31:57 / Shape added: Rectangle
+06/06/2026 17:31:57 / Shape added
+06/06/2026 17:31:59 / Shape added: Circle
+06/06/2026 17:31:59 / Shape added

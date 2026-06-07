@@ -140,9 +140,10 @@ public class DrawingController {
 
 				Command cmd = new DeleteShapeCommand(canvas, shapeNode);
 				undoManager.execute(cmd);
+			} else {
+				offsetX = e.getSceneX() - shape.getLayoutX();
+				offsetY = e.getSceneY() - shape.getLayoutY();
 			}
-			offsetX = e.getSceneX() - shape.getLayoutX();
-			offsetY = e.getSceneY() - shape.getLayoutY();
 		});
 
 		shape.setOnMouseDragged(e -> {
